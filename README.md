@@ -1,4 +1,4 @@
-# 📘 Augmented Reality Based Learning for Computer Fundamentals
+# 📘 Augmented Reality Based Learning of Computer Fundamentals
 
 ## 📖 Introduction
 In today’s world, students learn through many traditional methods such as classroom lectures, books, notes, and digital devices. However, these methods often fail to help students properly understand topics that require visual clarity, especially computer hardware components.
