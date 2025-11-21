@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="CPU" size="6.000000 4.945179" />
+    <ImageTarget name="MiniComputer" size="6.000000 5.676522" />
+    <ImageTarget name="WirelessLAN" size="6.000000 6.066519" />
+    <ImageTarget name="WifiRouter" size="6.000000 5.781818" />
+    <ImageTarget name="WirelessAdapter" size="6.000000 5.435449" />
+    <ImageTarget name="WirelessAccessPoint" size="6.000000 5.755102" />
+    <ImageTarget name="ZipDiskDrive" size="6.000000 5.181380" />
+    <ImageTarget name="VideoController" size="6.000000 5.037037" />
+    <ImageTarget name="Trackball" size="6.000000 3.783942" />
+    <ImageTarget name="TouchScreen" size="6.000000 5.827648" />
+    <ImageTarget name="Touchpad" size="6.000000 3.822034" />
+    <ImageTarget name="SuperComputer" size="6.000000 5.271845" />
+    <ImageTarget name="Router" size="6.000000 4.415929" />
+    <ImageTarget name="RAM" size="6.000000 4.166400" />
+    <ImageTarget name="Processor" size="6.000000 3.855244" />
+    <ImageTarget name="Printer" size="6.000000 4.139241" />
+    <ImageTarget name="PortableHDD" size="6.000000 4.995392" />
+    <ImageTarget name="Plotter" size="6.000000 4.145111" />
+    <ImageTarget name="PDA" size="6.000000 4.195200" />
+    <ImageTarget name="PalmOS" size="6.000000 4.146686" />
+    <ImageTarget name="NIC" size="6.000000 4.158416" />
+    <ImageTarget name="Network" size="6.000000 4.200000" />
+    <ImageTarget name="Motherboard" size="6.000000 5.880435" />
+    <ImageTarget name="Modem" size="6.000000 4.415094" />
+    <ImageTarget name="MainFrame" size="6.000000 3.471204" />
+    <ImageTarget name="LCD" size="6.000000 4.158982" />
+    <ImageTarget name="Laptop" size="6.000000 4.149444" />
+    <ImageTarget name="KeyboardMouse" size="6.000000 5.240260" />
+    <ImageTarget name="Joystick" size="6.000000 4.176000" />
+    <ImageTarget name="ISDNComm" size="6.000000 5.761733" />
+    <ImageTarget name="HardDisk" size="6.000000 3.893805" />
+    <ImageTarget name="GraphicsTablet" size="6.000000 5.806452" />
+    <ImageTarget name="FloppyDisk" size="6.000000 5.839572" />
+    <ImageTarget name="CRT" size="6.000000 4.193344" />
+    <ImageTarget name="CPUPorts" size="6.000000 4.700582" />
+    <ImageTarget name="Computer" size="6.000000 3.812592" />
+    <ImageTarget name="CommNetwork" size="6.000000 5.858951" />
+    <ImageTarget name="CD" size="6.000000 4.154589" />
+  </Tracking>
+</QCARConfig>

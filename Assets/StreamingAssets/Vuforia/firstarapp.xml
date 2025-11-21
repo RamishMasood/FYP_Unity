@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="testingvuf" size="6.000000 4.201160" />
+    <ImageTarget name="testVufo" size="6.000000 2.506143" />
+    <ImageTarget name="WhatsA" size="6.000000 6.000000" />
+    <ImageTarget name="WhatsAppI" size="6.000000 6.000000" />
+    <ImageTarget name="second-car" size="6.000000 3.750000" />
+    <ImageTarget name="Marker" size="6.000000 4.000000" />
+  </Tracking>
+</QCARConfig>

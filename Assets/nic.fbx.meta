@@ -1,0 +1,447 @@
+fileFormatVersion: 2
+guid: 0de7d3805175e7e4792eb5873376e9e7
+ModelImporter:
+  serializedVersion: 22102
+  internalIDToNameTable:
+  - first:
+      74: 2735019626574919133
+    second: ' [12408]| [12408]|Take 001|BaseLayer'
+  - first:
+      74: 8700260188607164037
+    second: ' [12408]|DefaultCamera|Take 001|BaseLayer'
+  - first:
+      74: 8927642197583213427
+    second: ' [12408]|download_mid_d5da3d3020f809d52846fa729d90e125_ctyp_sm_cv_m8|Tak'
+  - first:
+      74: 1082010322243499244
+    second: ' [12408]|Group#11 [11453]|Take 001|BaseLayer'
+  - first:
+      74: 8069379504091161975
+    second: ' [12408]|Group#34 [11454]|Take 001|BaseLayer'
+  - first:
+      74: -5447300943263606232
+    second: ' [12408]|Group#35 [13845]|Take 001|BaseLayer'
+  - first:
+      74: -6791255464107015290
+    second: ' [12408]|Group#35 [13847]|Take 001|BaseLayer'
+  - first:
+      74: -2302456639730069689
+    second: ' [12408]|Group#37 [13846]|Take 001|BaseLayer'
+  - first:
+      74: 3458628502406092849
+    second: ' [12408]|Group#38 [13848]|Take 001|BaseLayer'
+  - first:
+      74: 5711338289981808138
+    second: ' [12408]|Group#39 [13844]|Take 001|BaseLayer'
+  - first:
+      74: -4234801306950686028
+    second: ' [12408]|Group#40 [13849]|Take 001|BaseLayer'
+  - first:
+      74: 3507983712192070214
+    second: Group#39 [13844]| [12408]|Take 001|BaseLayer
+  - first:
+      74: 481811461228283936
+    second: Group#39 [13844]|DefaultCamera|Take 001|BaseLayer
+  - first:
+      74: -181879090232648694
+    second: Group#39 [13844]|download_mid_d5da3d3020f809d52846fa729d90e125_ctyp_sm_cv_m8|Tak
+  - first:
+      74: -5596848870557665227
+    second: Group#39 [13844]|Group#11 [11453]|Take 001|BaseLayer
+  - first:
+      74: -6818613239568727031
+    second: Group#39 [13844]|Group#34 [11454]|Take 001|BaseLayer
+  - first:
+      74: -6618727985194224517
+    second: Group#39 [13844]|Group#35 [13845]|Take 001|BaseLayer
+  - first:
+      74: 514221681320827473
+    second: Group#39 [13844]|Group#35 [13847]|Take 001|BaseLayer
+  - first:
+      74: 8598583557509163700
+    second: Group#39 [13844]|Group#37 [13846]|Take 001|BaseLayer
+  - first:
+      74: 9137052464751196529
+    second: Group#39 [13844]|Group#38 [13848]|Take 001|BaseLayer
+  - first:
+      74: -3018863943404660861
+    second: Group#39 [13844]|Group#39 [13844]|Take 001|BaseLayer
+  - first:
+      74: 2930602754445625859
+    second: Group#39 [13844]|Group#40 [13849]|Take 001|BaseLayer
+  - first:
+      74: 1258992915231698857
+    second: Group#35 [13845]| [12408]|Take 001|BaseLayer
+  - first:
+      74: 7943173609775741315
+    second: Group#35 [13845]|DefaultCamera|Take 001|BaseLayer
+  - first:
+      74: 5783750419697470043
+    second: Group#35 [13845]|download_mid_d5da3d3020f809d52846fa729d90e125_ctyp_sm_cv_m8|Tak
+  - first:
+      74: 4367889619856869540
+    second: Group#35 [13845]|Group#11 [11453]|Take 001|BaseLayer
+  - first:
+      74: 3389247907912210953
+    second: Group#35 [13845]|Group#34 [11454]|Take 001|BaseLayer
+  - first:
+      74: 3490353157324291321
+    second: Group#35 [13845]|Group#35 [13845]|Take 001|BaseLayer
+  - first:
+      74: -7103267735280919104
+    second: Group#35 [13845]|Group#35 [13847]|Take 001|BaseLayer
+  - first:
+      74: 266920143510820604
+    second: Group#35 [13845]|Group#37 [13846]|Take 001|BaseLayer
+  - first:
+      74: 6138968208152478755
+    second: Group#35 [13845]|Group#38 [13848]|Take 001|BaseLayer
+  - first:
+      74: -6868042752450103522
+    second: Group#35 [13845]|Group#39 [13844]|Take 001|BaseLayer
+  - first:
+      74: -148105991804790064
+    second: Group#35 [13845]|Group#40 [13849]|Take 001|BaseLayer
+  - first:
+      74: 8492679233710801875
+    second: Group#37 [13846]| [12408]|Take 001|BaseLayer
+  - first:
+      74: 6224216981186124947
+    second: Group#37 [13846]|DefaultCamera|Take 001|BaseLayer
+  - first:
+      74: 4592045197582818170
+    second: Group#37 [13846]|download_mid_d5da3d3020f809d52846fa729d90e125_ctyp_sm_cv_m8|Tak
+  - first:
+      74: -3679073345966748345
+    second: Group#37 [13846]|Group#11 [11453]|Take 001|BaseLayer
+  - first:
+      74: 4543699291804134502
+    second: Group#37 [13846]|Group#34 [11454]|Take 001|BaseLayer
+  - first:
+      74: -5108577997009456624
+    second: Group#37 [13846]|Group#35 [13845]|Take 001|BaseLayer
+  - first:
+      74: 2488103121278897353
+    second: Group#37 [13846]|Group#35 [13847]|Take 001|BaseLayer
+  - first:
+      74: 6395430368516223535
+    second: Group#37 [13846]|Group#37 [13846]|Take 001|BaseLayer
+  - first:
+      74: -7509849967827165757
+    second: Group#37 [13846]|Group#38 [13848]|Take 001|BaseLayer
+  - first:
+      74: 4072784442505093224
+    second: Group#37 [13846]|Group#39 [13844]|Take 001|BaseLayer
+  - first:
+      74: -9139167863451244172
+    second: Group#37 [13846]|Group#40 [13849]|Take 001|BaseLayer
+  - first:
+      74: 2047369376785466408
+    second: Group#35 [13847]| [12408]|Take 001|BaseLayer
+  - first:
+      74: -6843728976693958920
+    second: Group#35 [13847]|DefaultCamera|Take 001|BaseLayer
+  - first:
+      74: -431131763534692419
+    second: Group#35 [13847]|download_mid_d5da3d3020f809d52846fa729d90e125_ctyp_sm_cv_m8|Tak
+  - first:
+      74: -1307189171909311696
+    second: Group#35 [13847]|Group#11 [11453]|Take 001|BaseLayer
+  - first:
+      74: 1828123866933458668
+    second: Group#35 [13847]|Group#34 [11454]|Take 001|BaseLayer
+  - first:
+      74: -4122477854565304293
+    second: Group#35 [13847]|Group#35 [13845]|Take 001|BaseLayer
+  - first:
+      74: 2618818629046941540
+    second: Group#35 [13847]|Group#35 [13847]|Take 001|BaseLayer
+  - first:
+      74: -6881500971939203645
+    second: Group#35 [13847]|Group#37 [13846]|Take 001|BaseLayer
+  - first:
+      74: -3094659730826701084
+    second: Group#35 [13847]|Group#38 [13848]|Take 001|BaseLayer
+  - first:
+      74: -1731418511130705897
+    second: Group#35 [13847]|Group#39 [13844]|Take 001|BaseLayer
+  - first:
+      74: -1195739158917746691
+    second: Group#35 [13847]|Group#40 [13849]|Take 001|BaseLayer
+  - first:
+      74: 5874076382962863739
+    second: Group#38 [13848]| [12408]|Take 001|BaseLayer
+  - first:
+      74: -4433355059328858221
+    second: Group#38 [13848]|DefaultCamera|Take 001|BaseLayer
+  - first:
+      74: 3760149344724513617
+    second: Group#38 [13848]|download_mid_d5da3d3020f809d52846fa729d90e125_ctyp_sm_cv_m8|Tak
+  - first:
+      74: 7670188107995924905
+    second: Group#38 [13848]|Group#11 [11453]|Take 001|BaseLayer
+  - first:
+      74: 4653502211443493923
+    second: Group#38 [13848]|Group#34 [11454]|Take 001|BaseLayer
+  - first:
+      74: 883644125731552816
+    second: Group#38 [13848]|Group#35 [13845]|Take 001|BaseLayer
+  - first:
+      74: -7165538127772771247
+    second: Group#38 [13848]|Group#35 [13847]|Take 001|BaseLayer
+  - first:
+      74: 7985512506333395816
+    second: Group#38 [13848]|Group#37 [13846]|Take 001|BaseLayer
+  - first:
+      74: 2607468406451446213
+    second: Group#38 [13848]|Group#38 [13848]|Take 001|BaseLayer
+  - first:
+      74: 3839581794399319304
+    second: Group#38 [13848]|Group#39 [13844]|Take 001|BaseLayer
+  - first:
+      74: 8251806685342466562
+    second: Group#38 [13848]|Group#40 [13849]|Take 001|BaseLayer
+  - first:
+      74: -3347524184310967012
+    second: Group#11 [11453]| [12408]|Take 001|BaseLayer
+  - first:
+      74: -4912598275027018848
+    second: Group#11 [11453]|DefaultCamera|Take 001|BaseLayer
+  - first:
+      74: 4134148387806614748
+    second: Group#11 [11453]|download_mid_d5da3d3020f809d52846fa729d90e125_ctyp_sm_cv_m8|Tak
+  - first:
+      74: 8047501084147496388
+    second: Group#11 [11453]|Group#11 [11453]|Take 001|BaseLayer
+  - first:
+      74: -4581006623926940724
+    second: Group#11 [11453]|Group#34 [11454]|Take 001|BaseLayer
+  - first:
+      74: 390309993126382901
+    second: Group#11 [11453]|Group#35 [13845]|Take 001|BaseLayer
+  - first:
+      74: -6921502109164183080
+    second: Group#11 [11453]|Group#35 [13847]|Take 001|BaseLayer
+  - first:
+      74: -2130108998416651388
+    second: Group#11 [11453]|Group#37 [13846]|Take 001|BaseLayer
+  - first:
+      74: -4736965298958829208
+    second: Group#11 [11453]|Group#38 [13848]|Take 001|BaseLayer
+  - first:
+      74: -7430668897891582082
+    second: Group#11 [11453]|Group#39 [13844]|Take 001|BaseLayer
+  - first:
+      74: 7013486285228459196
+    second: Group#11 [11453]|Group#40 [13849]|Take 001|BaseLayer
+  - first:
+      74: 4072475616103161708
+    second: Group#34 [11454]| [12408]|Take 001|BaseLayer
+  - first:
+      74: -838285812961184352
+    second: Group#34 [11454]|DefaultCamera|Take 001|BaseLayer
+  - first:
+      74: 4411570569813473555
+    second: Group#34 [11454]|download_mid_d5da3d3020f809d52846fa729d90e125_ctyp_sm_cv_m8|Tak
+  - first:
+      74: -2544650110645321073
+    second: Group#34 [11454]|Group#11 [11453]|Take 001|BaseLayer
+  - first:
+      74: 7348022429692004486
+    second: Group#34 [11454]|Group#34 [11454]|Take 001|BaseLayer
+  - first:
+      74: -7788466507238692286
+    second: Group#34 [11454]|Group#35 [13845]|Take 001|BaseLayer
+  - first:
+      74: 6094095898619769374
+    second: Group#34 [11454]|Group#35 [13847]|Take 001|BaseLayer
+  - first:
+      74: -8669638934780141415
+    second: Group#34 [11454]|Group#37 [13846]|Take 001|BaseLayer
+  - first:
+      74: 3439193374237697223
+    second: Group#34 [11454]|Group#38 [13848]|Take 001|BaseLayer
+  - first:
+      74: 1257152511821044046
+    second: Group#34 [11454]|Group#39 [13844]|Take 001|BaseLayer
+  - first:
+      74: 365849851744807491
+    second: Group#34 [11454]|Group#40 [13849]|Take 001|BaseLayer
+  - first:
+      74: -2317489659057866677
+    second: Group#40 [13849]| [12408]|Take 001|BaseLayer
+  - first:
+      74: 7243790830594071375
+    second: Group#40 [13849]|DefaultCamera|Take 001|BaseLayer
+  - first:
+      74: -4952425901817302823
+    second: Group#40 [13849]|download_mid_d5da3d3020f809d52846fa729d90e125_ctyp_sm_cv_m8|Tak
+  - first:
+      74: 2524341543674204961
+    second: Group#40 [13849]|Group#11 [11453]|Take 001|BaseLayer
+  - first:
+      74: 3132623205912313059
+    second: Group#40 [13849]|Group#34 [11454]|Take 001|BaseLayer
+  - first:
+      74: 2831676156544065963
+    second: Group#40 [13849]|Group#35 [13845]|Take 001|BaseLayer
+  - first:
+      74: 1081990350301682876
+    second: Group#40 [13849]|Group#35 [13847]|Take 001|BaseLayer
+  - first:
+      74: -1789521410957483285
+    second: Group#40 [13849]|Group#37 [13846]|Take 001|BaseLayer
+  - first:
+      74: -3157249200091474747
+    second: Group#40 [13849]|Group#38 [13848]|Take 001|BaseLayer
+  - first:
+      74: -2842523450451009970
+    second: Group#40 [13849]|Group#39 [13844]|Take 001|BaseLayer
+  - first:
+      74: -4058708961158276784
+    second: Group#40 [13849]|Group#40 [13849]|Take 001|BaseLayer
+  - first:
+      74: 2852219576959184411
+    second: download_mid_d5da3d3020f809d52846fa729d90e125_ctyp_sm_cv_m8| [12408]|Take
+      001|BaseLayer
+  - first:
+      74: -6779369883391971479
+    second: download_mid_d5da3d3020f809d52846fa729d90e125_ctyp_sm_cv_m8|DefaultCamera|Take
+      001|BaseLayer
+  - first:
+      74: -4187653647572257492
+    second: download_mid_d5da3d3020f809d52846fa729d90e125_ctyp_sm_cv_m8|download_mid_d5da3d3020f809d52846fa729d90e125_ctyp_sm_cv_m8|Tak
+  - first:
+      74: 3690882713796668486
+    second: download_mid_d5da3d3020f809d52846fa729d90e125_ctyp_sm_cv_m8|Group#11
+      [11453]|Take 001|BaseLayer
+  - first:
+      74: -5597414768659729236
+    second: download_mid_d5da3d3020f809d52846fa729d90e125_ctyp_sm_cv_m8|Group#34
+      [11454]|Take 001|BaseLayer
+  - first:
+      74: 1809514413095505871
+    second: download_mid_d5da3d3020f809d52846fa729d90e125_ctyp_sm_cv_m8|Group#35
+      [13845]|Take 001|BaseLayer
+  - first:
+      74: -2826463018536467161
+    second: download_mid_d5da3d3020f809d52846fa729d90e125_ctyp_sm_cv_m8|Group#35
+      [13847]|Take 001|BaseLayer
+  - first:
+      74: -5022587856325871493
+    second: download_mid_d5da3d3020f809d52846fa729d90e125_ctyp_sm_cv_m8|Group#37
+      [13846]|Take 001|BaseLayer
+  - first:
+      74: 1301761128472627235
+    second: download_mid_d5da3d3020f809d52846fa729d90e125_ctyp_sm_cv_m8|Group#38
+      [13848]|Take 001|BaseLayer
+  - first:
+      74: -5613807242764390312
+    second: download_mid_d5da3d3020f809d52846fa729d90e125_ctyp_sm_cv_m8|Group#39
+      [13844]|Take 001|BaseLayer
+  - first:
+      74: 4390229407230989946
+    second: download_mid_d5da3d3020f809d52846fa729d90e125_ctyp_sm_cv_m8|Group#40
+      [13849]|Take 001|BaseLayer
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 0
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
