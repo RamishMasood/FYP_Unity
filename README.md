@@ -1,7 +1,7 @@
 # 📘 Augmented Reality Based Learning for Computer Fundamentals
 
 ## 📖 Introduction
-In today’s world, students learn through many traditional methods such as classroom lectures, books, notes, and digital devices. However, these methods often fail to help students properly understand topics that require visual clarity—especially computer hardware components.
+In today’s world, students learn through many traditional methods such as classroom lectures, books, notes, and digital devices. However, these methods often fail to help students properly understand topics that require visual clarity, especially computer hardware components.
 
 As technology continues to grow, education must also adopt modern tools to improve the learning experience.
 
@@ -20,12 +20,6 @@ AR solves these challenges by:
 - Displaying hardware components in **3D with full rotation**
 - Making learning fun and interactive
 - Helping students understand concepts faster and more clearly
-
-## 📚 What This Research Shows
-Our research compares **traditional learning methods** with **AR-based learning** and shows that AR:
-- Increases student engagement  
-- Improves understanding of complex hardware  
-- Is a low-cost and effective educational tool  
 
 ## 🎯 Goal
 Our goal is to reshape the learning experience through AR by making computer fundamentals:
