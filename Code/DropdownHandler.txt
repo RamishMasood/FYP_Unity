@@ -1,0 +1,30 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class DropdownHandler : MonoBehaviour
+{
+    public Dropdown modelDropdown;
+    public CameraSwitcher cameraSwitcher;
+    public CameraSwitcherDropdown cameraSwitcherDropdown;
+    
+
+    void Start()
+    {
+        
+    }
+    public void OnDropdownValueChanged()
+    {
+        int selectedModelIndex = modelDropdown.value;
+        cameraSwitcherDropdown.SwitchCamera(selectedModelIndex);
+        cameraSwitcher.setCurrentCameraIndex(selectedModelIndex);
+
+    }
+
+    public void UpdateDropdownSelection(int selectedIndex)
+    {
+        modelDropdown.value = selectedIndex;
+    }
+}

@@ -1,0 +1,221 @@
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.EventSystems;
+
+public class Rotate : MonoBehaviour
+{
+    public Camera mainCamera;
+    private bool rotationStarted = false;
+
+    public float rotateSpeed = 3f; // Rotation speed in degrees per second
+    public float zoomSpeed = 0.01f;  // Zoom speed for touch input
+    //public float minZoom = 1f;     // Minimum zoom level
+    //public float maxZoom = 10f;    // Maximum zoom level
+
+    private Vector2 touchStart;    // Starting position of touch
+    private bool isZooming = false; // Flag to check if zooming is active
+
+    private Quaternion storedLocalRotation;
+
+    private void Awake()
+    {
+        // Store the object's initial rotation
+        StoreCurrentRotation();
+    }
+
+    public void StoreCurrentRotation()
+    {
+        storedLocalRotation = transform.localRotation;
+    }
+
+    public void ResetRotation()
+    {
+        transform.localRotation = storedLocalRotation;
+    }
+
+    public void ResetScale()
+    {
+        transform.localScale = Vector3.one;
+    }
+
+
+    public void OnSwitchingToThisModel()
+    {
+        ResetRotation();
+        ResetScale();
+    }
+
+    public void OnSwitchingAwayFromThisModel()
+    {
+        ResetRotation();
+        ResetScale();
+    }
+
+    void Update()
+    {
+        HandleRotationInput();
+        HandleZoomInput();
+
+    }
+
+    /*void HandleRotationInput()
+    {
+        if (Input.touchCount == 1 && Input.GetTouch(0).phase == TouchPhase.Moved && !isZooming)
+        {
+
+            float rotationX = Input.GetTouch(0).deltaPosition.y * rotateSpeed * Time.deltaTime;
+            float rotationY = -Input.GetTouch(0).deltaPosition.x * rotateSpeed * Time.deltaTime;
+
+            // Rotate around the world axes instead of local axes
+            transform.Rotate(Vector3.right, rotationX, Space.World);
+            transform.Rotate(Vector3.up, rotationY, Space.World);
+
+            //transform.Rotate(Vector3.left, rotationX, Space.Self); // Rotate around local x-axis
+            //transform.Rotate(Vector3.forward, rotationZ, Space.Self); // Rotate around local z-axis
+        }
+        else if (Input.GetMouseButton(0) && !isZooming)
+        {
+
+            float rotationX = Input.GetAxis("Mouse Y") * rotateSpeed;
+            float rotationY = -Input.GetAxis("Mouse X") * rotateSpeed;
+
+            // Rotate around the world axes instead of local axes
+            transform.Rotate(Vector3.right, rotationX, Space.World);
+            transform.Rotate(Vector3.up, rotationY, Space.World);
+
+            //transform.Rotate(Vector3.right, rotationX, Space.Self); // Rotate around local x-axis
+            //transform.Rotate(-Vector3.forward, rotationZ, Space.Self); // Rotate around local z-axis
+        }
+    }*/
+    void HandleRotationInput()
+    {
+        if (Input.touchCount == 1 && !IsPointerOverUIObject() && !isZooming)
+        {
+            Touch touch = Input.GetTouch(0);
+
+            if (touch.phase == TouchPhase.Began)
+            {
+                rotationStarted = IsPointerOverModel(touch.position);
+            }
+
+            if (rotationStarted && touch.phase == TouchPhase.Moved)
+            {
+                float rotationX = touch.deltaPosition.y * rotateSpeed * Time.deltaTime;
+                float rotationY = -touch.deltaPosition.x * rotateSpeed * Time.deltaTime;
+
+                // Rotate around the world axes instead of local axes
+                transform.Rotate(Vector3.right, rotationX, Space.World);
+                transform.Rotate(Vector3.up, rotationY, Space.World);
+            }
+
+            if (touch.phase == TouchPhase.Ended)
+            {
+                rotationStarted = false;
+            }
+        }
+        else if (Input.GetMouseButton(0) && !IsPointerOverUIObject() && !isZooming)
+        {
+            if (rotationStarted || IsPointerOverModel(Input.mousePosition))
+            {
+                rotationStarted = true;
+                float rotationX = Input.GetAxis("Mouse Y") * rotateSpeed;
+                float rotationY = -Input.GetAxis("Mouse X") * rotateSpeed;
+
+                // Rotate around the world axes instead of local axes
+                transform.Rotate(Vector3.right, rotationX, Space.World);
+                transform.Rotate(Vector3.up, rotationY, Space.World);
+            }
+            
+        }
+        if (Input.GetMouseButtonUp(0))
+        {
+            rotationStarted = false;
+        }
+        
+    }
+
+    // Check if the touch is over a UI object
+    bool IsPointerOverUIObject(int fingerId = -1)
+    {
+        PointerEventData eventData = new PointerEventData(EventSystem.current);
+        eventData.position = (fingerId == -1) ? Input.mousePosition : Input.GetTouch(fingerId).position;
+
+        // Raycast using the EventSystem to check if the touch is over a UI object
+        List<RaycastResult> results = new List<RaycastResult>();
+        EventSystem.current.RaycastAll(eventData, results);
+
+        return results.Count > 0;
+    }
+
+    bool IsPointerOverModel(Vector2 screenPosition)
+    {
+        Ray ray = mainCamera.ScreenPointToRay(screenPosition);
+        RaycastHit hit;
+
+        if (Physics.Raycast(ray, out hit))
+        {
+            // Check if the hit collider bounds contain the hit point
+            if (hit.collider != null)
+            {
+                Collider collider = hit.collider;
+                Bounds bounds = collider.bounds;
+                Vector3 hitPoint = hit.point;
+
+                if (bounds.Contains(hitPoint))
+                {
+                    return true;
+                }
+            }
+        }
+
+        return false;
+    }
+
+    void HandleZoomInput()
+    {
+        if (Input.touchCount == 2)
+        {
+            Touch touch0 = Input.GetTouch(0);
+            Touch touch1 = Input.GetTouch(1);
+
+            Vector2 touch0PrevPos = touch0.position - touch0.deltaPosition;
+            Vector2 touch1PrevPos = touch1.position - touch1.deltaPosition;
+
+            float prevTouchDeltaMag = (touch0PrevPos - touch1PrevPos).magnitude;
+            float touchDeltaMag = (touch0.position - touch1.position).magnitude;
+
+            float deltaMagnitudeDiff = prevTouchDeltaMag - touchDeltaMag;
+
+            if (deltaMagnitudeDiff != 0f && !IsPointerOverUIObject())
+            {
+                isZooming = true;
+                Zoom(-deltaMagnitudeDiff * zoomSpeed);
+            }
+            else
+            {
+                isZooming = false;
+            }
+        }
+        else
+        {
+            float scrollWheel = Input.GetAxis("Mouse ScrollWheel");
+            if (scrollWheel != 0f && !IsPointerOverUIObject())
+            {
+                isZooming = true;
+                Zoom(scrollWheel * zoomSpeed);
+            }
+            else
+            {
+                isZooming = false;
+            }
+        }
+    }
+
+    void Zoom(float deltaMagnitudeDiff)
+    {
+        Vector3 scale = transform.localScale + new Vector3(deltaMagnitudeDiff, deltaMagnitudeDiff, deltaMagnitudeDiff);
+        scale = Vector3.Max(scale, new Vector3(0.7f, 0.7f, 0.7f)); // Set minimum scale
+        scale = Vector3.Min(scale, new Vector3(5f, 5f, 5f)); // Set maximum scale
+        transform.localScale = scale;
+    }
+}

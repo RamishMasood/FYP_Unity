@@ -1,0 +1,25 @@
+using UnityEngine;
+
+public class ResetModel : MonoBehaviour
+{
+    // Reference to the GameObject that holds the 3D model
+    public GameObject modelContainer;
+
+    // Reset the position of the 3D model
+    public void ResetModelPositionAndZoom()
+    {
+        
+        if (modelContainer != null)
+        {
+            modelContainer.transform.position = Vector3.zero; // You can set any desired position here
+            modelContainer.transform.rotation = Quaternion.identity;
+            Debug.Log("Model position reset!");
+            modelContainer.transform.localScale = Vector3.one;
+            Debug.Log("Model Zoom reset!");
+        }
+        else
+        {
+            //Debug.LogError("Model container is not assigned. Make sure to assign it in the inspector.");
+        }
+    }
+}
